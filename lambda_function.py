@@ -6,13 +6,13 @@ def lambda_handler(event, context):
 
     sender_email = "your-verified-email@example.com"
     recipient_email = "viniciuscamacho12@gmail.com"
-    subject = "Test Email from AWS Lambda"
-    body_text = "This is a test email sent from an AWS Lambda function."
+    subject = "E-mail de teste do AWS Lambda"
+    body_text = "Este é um e-mail de teste enviado de uma função AWS Lambda."
     body_html = """<html>
     <head></head>
     <body>
-      <h1>Test Email from AWS Lambda</h1>
-      <p>This is a test email sent from an AWS Lambda function.</p>
+      <h1>E-mail de teste do AWS Lambda</h1>
+      <p>Este é um e-mail de teste enviado de uma função AWS Lambda.</p>
     </body>
     </html>"""
 
